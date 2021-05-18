@@ -2,9 +2,10 @@
 
 Order of Calls
 1. Vue Webapp on `http://<ip>:8080/remote-shell-fe/`
-  1.1 calling Express `http://<ip>:3000[on|off]`
+* calling Express `http://<ip>:3000[on|off]`
 2. Express
-  3.1 execute `./on.sh` or `./off.sh`
+* execute `./on.sh` or `./off.sh`
+3. shell command gets executed
 
 ## Vue Webapp
 `/var/www/remote-shel.fe`
